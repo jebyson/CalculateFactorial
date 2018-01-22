@@ -10,7 +10,7 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
         int rand = input.nextInt();
-        
-        CalcFact.factorialCalculator(rand);
+
+        System.out.println(CalcFact.factorialCalculator(rand));
     }
 }

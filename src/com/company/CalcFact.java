@@ -3,13 +3,10 @@ package com.company;
 /**
  * Created by je565 on 1/22/18.
  */
+
 public class CalcFact {
 
-    public CalcFact()
-    {
-    }
-
-    public static int factorialCalculator(int x)
+    static int factorialCalculator(int x)
     {
         if(x == 1)
         {
@@ -17,7 +14,7 @@ public class CalcFact {
         }
         else
         {
-            return (x * factorialCalculator(x - 1));
+            return x * factorialCalculator(x - 1);
         }
     }
 }
